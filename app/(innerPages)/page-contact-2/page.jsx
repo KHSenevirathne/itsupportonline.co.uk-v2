@@ -1,6 +1,6 @@
-import Header2 from "@/components/headers/Header2";
+import Header2 from "@/components/headers/Header4";
 
-import Footer2 from "@/components/footers/Footer2";
+import Footer2 from "@/components/footers/Footer4";
 import Faq from "@/components/homes/home-2/Faq";
 import Brands from "@/components/common/Brands2";
 import Blogs from "@/components/homes/home-2/Blogs";

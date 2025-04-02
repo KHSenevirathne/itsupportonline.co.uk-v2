@@ -9,7 +9,7 @@ export default function Nav3() {
     <>
       <li className="has-dd-menu ">
         <a href="#" role="button" aria-haspopup="true">
-          Products{" "}
+          IT Services{" "}
           <span
             data-uc-navbar-parent-icon=""
             className="uc-icon uc-navbar-parent-icon"
@@ -33,7 +33,7 @@ export default function Nav3() {
                     <div className="panel vstack gap-4">
                       <div className="hstack gap-4 justify-between">
                         <h5 className="h5 fw-medium m-0">
-                          Discover our Products &amp; Solutions
+                          Discover our IT Services &amp; Solutions
                         </h5>
                         <Link
                           href={`/page-features`}
@@ -54,53 +54,16 @@ export default function Nav3() {
                             >
                               <span className="icon">
                                 <i
-                                  className={`icon-2 ${feature.iconClass} text-gray-900 dark:text-white`}
+                                  className={`icon-2 ${feature.iconClass} text-primary dark:text-white`}
                                 />
                               </span>
                               <div className="panel">
-                                <h6 className="h6 fs-7 fw-medium mb-narrow">
+                                <h6 className="h6 fs-7 fw-bold mb-narrow">
                                   {feature.title}
                                 </h6>
-                                <p className="fs-8 text-muted">
+                                <p className="fs-7 fw-normal">
                                   {feature.description}
                                 </p>
-                              </div>
-                            </Link>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                    <div className="panel vstack gap-2">
-                      <div className="hstack gap-4 justify-between">
-                        <h6 className="h6 m-0 fs-8 text-uppercase">
-                          Templates and integrations
-                        </h6>
-                        <Link
-                          href={`/page-integrations`}
-                          className="btn btn-text h-24px p-0 fs-8 text-uppercase dark:text-white"
-                        >
-                          <span>See +80 integrations</span>
-                        </Link>
-                      </div>
-                      <div className="row child-cols g-0">
-                        {homeLinks.map((link, index) => (
-                          <div key={index}>
-                            <Link
-                              href={link.href}
-                              className="vstack p-1 text-none text-center rounded-1-5 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150"
-                            >
-                              <div className="featured-image panel border shadow-xs rounded-1 overflow-hidden">
-                                <Image
-                                  alt={link.imgAlt}
-                                  src={link.imgSrc}
-                                  width={700}
-                                  height={817}
-                                />
-                              </div>
-                              <div className="panel p-1">
-                                <span className="fs-8 fw-medium m-0 text-gray-900 dark:text-white">
-                                  {link.label}
-                                </span>
                               </div>
                             </Link>
                           </div>
@@ -148,7 +111,7 @@ export default function Nav3() {
       </li>
       <li className="has-dd-menu" style={{ position: "relative" }}>
         <a href="#" role="button" aria-haspopup="true">
-          Resources{" "}
+          Industries{" "}
           <span
             data-uc-navbar-parent-icon=""
             className="uc-icon uc-navbar-parent-icon"
@@ -346,10 +309,9 @@ export default function Nav3() {
       </li>
       <li>
         <a
-          href="https://themeforest.net/user/ib-themes/portfolio"
-          target="_blank"
+          href="/page-about"
         >
-          Buy now
+          About Us
         </a>
       </li>
     </>

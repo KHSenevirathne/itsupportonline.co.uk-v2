@@ -1,6 +1,6 @@
-import Header2 from "@/components/headers/Header2";
+import Header2 from "@/components/headers/Header4";
 
-import Footer2 from "@/components/footers/Footer2";
+import Footer2 from "@/components/footers/Footer4";
 import Breadcumb from "@/components/shop/Breadcumb";
 import Cart2 from "@/components/shop/Cart2";
 export const metadata = {

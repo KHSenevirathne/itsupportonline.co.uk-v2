@@ -1,6 +1,6 @@
-import Header2 from "@/components/headers/Header2";
+import Header2 from "@/components/headers/Header4";
 
-import Footer2 from "@/components/footers/Footer2";
+import Footer2 from "@/components/footers/Footer4";
 import CareerHero from "@/components/innerpages/CareerHero";
 import CareerBenefits from "@/components/innerpages/CareerBenefits";
 import CareerOpenings from "@/components/innerpages/CareerOpenings";

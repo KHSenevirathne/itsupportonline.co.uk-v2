@@ -1,6 +1,6 @@
-import Header2 from "@/components/headers/Header2";
+import Header2 from "@/components/headers/Header4";
 
-import Footer2 from "@/components/footers/Footer2";
+import Footer2 from "@/components/footers/Footer4";
 import Contact1 from "@/components/innerpages/Contact1";
 import ContactLinks from "@/components/innerpages/ContactLinks";
 import Faq from "@/components/homes/home-2/Faq";

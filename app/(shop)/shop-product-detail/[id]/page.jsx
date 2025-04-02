@@ -1,6 +1,6 @@
-import Header2 from "@/components/headers/Header2";
+import Header2 from "@/components/headers/Header4";
 
-import Footer2 from "@/components/footers/Footer2";
+import Footer2 from "@/components/footers/Footer4";
 import Breadcumb2 from "@/components/shop/Breadcumb2";
 import ShopDetails1 from "@/components/shop/ShopDetails1";
 import { products } from "@/data/products";

@@ -1,6 +1,6 @@
-import Header2 from "@/components/headers/Header2";
+import Header2 from "@/components/headers/Header4";
 
-import Footer2 from "@/components/footers/Footer2";
+import Footer2 from "@/components/footers/Footer4";
 import JobDetails from "@/components/innerpages/JobDetails";
 import CareerOpenings from "@/components/innerpages/CareerOpenings";
 import Feedback from "@/components/homes/home-2/Feedback";

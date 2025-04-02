@@ -41,7 +41,7 @@ export default function Header4() {
       >
         <div
           style={{ "--uc-nav-height": "32px" }}
-          className="uc-navbar-top bg-primary-700 text-white uc-dark d-none lg:d-block"
+          className="uc-navbar-top bg-primary-500 text-white uc-dark d-none lg:d-block"
         >
           <div className="hide-on-sticky">
             <div className="container container-expand max-w-1440px">
@@ -98,15 +98,15 @@ export default function Header4() {
                   >
                     <Image
                       className="dark:d-none"
-                      alt="Lexend"
-                      src="/assets/images/common/logo-light.svg"
+                      alt="IT support"
+                      src="/assets/images/common/logo.png"
                       width="117"
                       height="40"
                     />
                     <Image
                       className="d-none dark:d-block"
-                      alt="Lexend"
-                      src="/assets/images/common/logo-dark.svg"
+                      alt="IT support"
+                      src="/assets/images/common/logo.png"
                       width="117"
                       height="40"
                     />
@@ -124,7 +124,7 @@ export default function Header4() {
                   className="btn btn-md btn-primary rounded-default lg:px-3 text-none shadow-xs d-none lg:d-inline-flex"
                   href={`/page-contact`}
                 >
-                  Send inquiry
+                  Contact Us
                 </Link>
                 <a
                   className="d-block lg:d-none uc-icon uc-navbar-toggle-icon"

@@ -1,4 +1,4 @@
-import Header2 from "@/components/headers/Header2";
+import Header2 from "@/components/headers/Header4";
 import Newsletter from "@/components/blog/Newsletter";
 import Footer1 from "@/components/footers/Footer1";
 import BlogDetails1 from "@/components/blog/BlogDetails1";

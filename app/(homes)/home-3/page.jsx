@@ -1,4 +1,4 @@
-import Header2 from "@/components/headers/Header2";
+import Header2 from "@/components/headers/Header4";
 import Pricing from "@/components/common/Pricing";
 import Brands2 from "@/components/homes/home-3/Brands";
 import Features from "@/components/homes/home-3/Features";
@@ -8,7 +8,7 @@ import React from "react";
 import Testimonials from "@/components/homes/home-3/Testimonials";
 import Blog from "@/components/homes/home-3/Blog";
 import Cta from "@/components/homes/home-3/Cta";
-import Footer2 from "@/components/footers/Footer2";
+import Footer2 from "@/components/footers/Footer4";
 import Brands3 from "@/components/common/Brands2";
 export const metadata = {
   title:

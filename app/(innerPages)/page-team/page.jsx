@@ -1,4 +1,4 @@
-import Footer2 from "@/components/footers/Footer2";
+import Footer2 from "@/components/footers/Footer4";
 import Header4 from "@/components/headers/Header4";
 import Breadcumb from "@/components/innerpages/Breadcumb";
 import Cta2 from "@/components/innerpages/Cta2";

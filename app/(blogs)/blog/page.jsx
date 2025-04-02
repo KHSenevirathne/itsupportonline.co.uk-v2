@@ -1,6 +1,6 @@
-import Header2 from "@/components/headers/Header2";
+import Header2 from "@/components/headers/Header4";
 
-import Footer2 from "@/components/footers/Footer2";
+import Footer2 from "@/components/footers/Footer4";
 import Newsletter from "@/components/blog/Newsletter";
 import Blogs1 from "@/components/blog/Blogs1";
 export const metadata = {

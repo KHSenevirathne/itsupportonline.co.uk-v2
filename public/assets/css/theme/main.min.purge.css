@@ -147,10 +147,10 @@
   --color-slate-900: #15171a;
 
   /* home 1 to 6 and inner pages and rtl version main color plate change from bellow  */
-  --color-primary: #12715b;
-  --bs-primary-rgb: 18, 113, 91;
-  --btn-hover-bg: #0f604d;
-  --btn-hover-border-color: #0e5a49;
+  --color-primary: #0337A3;
+  --bs-primary-rgb: 3, 55, 163;
+  --btn-hover-bg: #033782;
+  --btn-hover-border-color: #033764;
   /* home 1 to 6 and inner pages and rtl version main color plate change from top  */
 
   --color-primary-10: #f8fbfa;
@@ -6664,6 +6664,10 @@ textarea.form-control-lg {
 .bg-primary-400 {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-400-rgb), var(--bs-bg-opacity)) !important;
+}
+.bg-primary-500 {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-primary-500-rgb), var(--bs-bg-opacity)) !important;
 }
 .bg-primary-600 {
   --bs-bg-opacity: 1;
