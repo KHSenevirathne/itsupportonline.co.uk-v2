@@ -122,9 +122,9 @@ export default function Header4() {
                 </ul>
                 <Link
                   className="btn btn-md btn-primary rounded-default lg:px-3 text-none shadow-xs d-none lg:d-inline-flex"
-                  href={`/page-contact`}
+                  href={`/page-consultation`}
                 >
-                  Contact Us
+                  Free Consultation
                 </Link>
                 <a
                   className="d-block lg:d-none uc-icon uc-navbar-toggle-icon"

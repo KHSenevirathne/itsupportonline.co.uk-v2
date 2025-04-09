@@ -8,7 +8,7 @@ export default function Nav3() {
   return (
     <>
       <li className="has-dd-menu ">
-        <a href="#" role="button" aria-haspopup="true">
+        <a href="/page-services" role="button" aria-haspopup="true">
           IT Services{" "}
           <span
             data-uc-navbar-parent-icon=""
@@ -110,7 +110,7 @@ export default function Nav3() {
         </div>
       </li>
       <li className="has-dd-menu" style={{ position: "relative" }}>
-        <a href="#" role="button" aria-haspopup="true">
+        <a href="/page-industries" role="button" aria-haspopup="true">
           Industries{" "}
           <span
             data-uc-navbar-parent-icon=""
@@ -313,6 +313,13 @@ export default function Nav3() {
           href="/page-about"
         >
           About Us
+        </a>
+      </li>
+      <li>
+        <a
+          href="/page-contact"
+        >
+          Contact Us
         </a>
       </li>
     </>
