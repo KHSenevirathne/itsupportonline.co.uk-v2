@@ -36,11 +36,11 @@ export default function Nav3() {
                           Discover our IT Services &amp; Solutions
                         </h5>
                         <Link
-                          href={`/page-features`}
+                          href={`/page-services`}
                           className="btn btn-sm dark:text-white"
                         >
-                          <span>See what's new</span>
-                          <span className="cstack w-32px h-32px rounded-circle bg-primary-100 dark:bg-primary">
+                          <span>See Our Services</span>
+                          <span className="cstack w-32px h-32px rounded-circle bg-secondary dark:bg-primary">
                             <i className="icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
                           </span>
                         </Link>
@@ -49,8 +49,8 @@ export default function Nav3() {
                         {features.map((feature, index) => (
                           <div key={index}>
                             <Link
-                              href={`/page-features`}
-                              className="hstack items-start gap-2 p-2 text-none rounded-1-5 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150"
+                              href={`#`}
+                              className="hstack items-start gap-2 p-2 text-none rounded-1-5 hover:bg-primary hover:bg-opacity-5 dark:hover:bg-white duration-150"
                             >
                               <span className="icon">
                                 <i
@@ -73,7 +73,7 @@ export default function Nav3() {
                   </div>
                 </div>
                 <div className="col-4">
-                  <div className="panel vstack gap-4 p-5 bg-gray-25 dark:bg-gray-800">
+                  <div className="panel vstack gap-4 p-5 bg-secondary dark:bg-gray-800">
                     <div className="panel category-section">
                       <h6 className="h6 fs-8 text-uppercase">
                         Professional solutions
@@ -133,8 +133,9 @@ export default function Nav3() {
                 {featuresMenu.map((feature, index) => (
                   <li key={index}>
                     <Link
-                      className="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
-                      href={feature.href}
+                      className="hstack items-start gap-2 p-2 hover:bg-primary hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
+                      // href={feature.href}
+                      href={`#`}
                     >
                       <i
                         className={`icon-1 ${feature.iconClass} fw-bold text-primary dark:text-secondary`}
@@ -151,7 +152,7 @@ export default function Nav3() {
               </ul>
             </div>
             <div>
-              <div className="vstack gap-2 p-3 h-100 bg-gray-25 dark:bg-gray-300 dark:bg-opacity-5">
+              <div className="vstack gap-2 p-3 h-100 bg-secondary dark:bg-gray-300 dark:bg-opacity-5">
                 <div
                   className="featured-image panel"
                   data-uc-lightbox="video-autoplay: true;"
@@ -223,7 +224,7 @@ export default function Nav3() {
               <ul className="uc-nav uc-navbar-dropdown-nav p-2">
                 <li>
                   <Link
-                    className="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
+                    className="hstack items-start gap-2 p-2 hover:bg-primary hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
                     href={`/blog`}
                   >
                     <i className="icon-1 unicon-course fw-bold text-primary dark:text-secondary" />
@@ -238,7 +239,7 @@ export default function Nav3() {
                 </li>
                 <li>
                   <a
-                    className="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
+                    className="hstack items-start gap-2 p-2 hover:bg-primary hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
                     onClick={openNewsletterModal}
                     role="button"
                   >
@@ -253,8 +254,8 @@ export default function Nav3() {
                 </li>
                 <li>
                   <Link
-                    className="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
-                    href={`/page-features`}
+                    className="hstack items-start gap-2 p-2 hover:bg-primary hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
+                    href={`#`}
                   >
                     <i className="icon-1 unicon-play fw-bold text-primary dark:text-secondary" />
                     <span className="vstack gap-narrow mt-nnarrow">
@@ -269,10 +270,10 @@ export default function Nav3() {
               </ul>
             </div>
             <div>
-              <ul className="uc-nav uc-navbar-dropdown-nav p-2 h-100 bg-gray-25 dark:bg-gray-300 dark:bg-opacity-5">
+              <ul className="uc-nav uc-navbar-dropdown-nav p-2 h-100 bg-secondary dark:bg-gray-300 dark:bg-opacity-5">
                 <li>
                   <Link
-                    className="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
+                    className="hstack items-start gap-2 p-2 hover:bg-primary hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
                     href={`/page-career`}
                   >
                     <i className="icon-1 unicon-star fw-bold text-primary dark:text-secondary" />
@@ -287,7 +288,7 @@ export default function Nav3() {
                 </li>
                 <li>
                   <Link
-                    className="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
+                    className="hstack items-start gap-2 p-2 hover:bg-primary hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
                     href={`/page-contact`}
                   >
                     <i className="icon-1 unicon-headset fw-bold text-primary dark:text-secondary" />

@@ -236,11 +236,6 @@ export default function MobileMenu() {
             <li>
               <Link href={`/sign-in`}>Log in</Link>
             </li>
-            <li>
-              <a href="https://themeforest.net/user/ib-themes/portfolio">
-                Buy Template
-              </a>
-            </li>
           </ul>
           <ul className="social-icons nav-x mt-4">
             <li>

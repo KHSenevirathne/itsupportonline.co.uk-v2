@@ -2846,7 +2846,7 @@ header.uc-header.header-six > .uc-navbar-sticky .uc-navbar-main .uc-navbar {
   --bs-cyan-700: #228799;
   --bs-cyan-800: #165a66;
   --bs-cyan-900: #0b2d33;
-  --bs-secondary-rgb: 245, 238, 233;
+  --bs-secondary-rgb: 232, 234, 246;
   --bs-success-rgb: 76, 175, 80;
   --bs-info-rgb: 0, 153, 204;
   --bs-warning-rgb: 255, 179, 7;
@@ -8403,7 +8403,7 @@ textarea.form-control-lg {
   --uc-gradient-stops: var(--uc-gradient-from), var(--uc-gradient-to);
 }
 .from-secondary {
-  --uc-gradient-from: #f5eee9;
+  --uc-gradient-from: #e8eaf6;
   --uc-gradient-stops: var(--uc-gradient-from), var(--uc-gradient-to);
 }
 .from-gray-800 {
