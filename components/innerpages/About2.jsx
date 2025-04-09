@@ -37,7 +37,7 @@ export default function About2() {
               className="panel vstack text-center"
               data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
-              <h2 className="h3 lg:h2 mb-4">How Lexend helps</h2>
+              <h2 className="h3 lg:h2 mb-4">How IT Support helps</h2>
               <p className="fs-5 xl:fs-4 text-dark dark:text-white text-opacity-70">
                 Teams use Lexend to improve document workflows, insights, and
                 speed while delivering an amazing experience for their
