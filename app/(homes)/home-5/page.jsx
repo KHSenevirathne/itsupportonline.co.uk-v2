@@ -37,8 +37,7 @@ export default function HomePage5() {
                     data-anime="onview: -100; translateY: [-16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 350;"
                   >
                     <p className="fs-6 sm:fs-5 lg:fs-4 xl:fs-3 fw-medium">
-                      14,000+ customers large and small rely on us for trust
-                      transformation
+                      For over 15 years, we&apos;ve provided vital IT support for our clients
                     </p>
                     <div className="block-panel panel">
                       <div className="element-brands text-black dark:text-white mask-x">

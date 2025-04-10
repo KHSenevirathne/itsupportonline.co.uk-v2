@@ -66,10 +66,10 @@ export default function Header4() {
                   <div className="uc-navbar-item">
                     <a
                       className="btn btn-xs p-0 fs-8 text-white"
-                      href="tel:01032701349"
+                      href="tel:01023456789"
                     >
                       <i className="icon-narrow unicon-phone" />
-                      <span>Tel: +1 327 1349</span>
+                      <span>Tel: +1 345 6789</span>
                     </a>
                   </div>
                   <div className="uc-navbar-item">
@@ -117,9 +117,9 @@ export default function Header4() {
                 </ul>
               </div>
               <div className="uc-navbar-right">
-                <ul className="uc-navbar-nav gap-3 xl:gap-4 d-none lg:d-flex fw-medium ltr:ms-2 ltr:xl:ms-4 rtl:me-2 rtl:xl:me-4">
+                {/* <ul className="uc-navbar-nav gap-3 xl:gap-4 d-none lg:d-flex fw-medium ltr:ms-2 ltr:xl:ms-4 rtl:me-2 rtl:xl:me-4">
                   <LanguageSelect2 />
-                </ul>
+                </ul> */}
                 <Link
                   className="btn btn-md btn-primary rounded-default lg:px-3 text-none shadow-xs d-none lg:d-inline-flex"
                   href={`/page-consultation`}

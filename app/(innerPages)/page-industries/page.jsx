@@ -21,6 +21,7 @@ export default function IndustriesPage() {
         <div id="wrapper" className="wrap">
           <Hero />
           <KeyFeatures />
+          <Cta />
           <div className="pt-6 xl:pt-9"></div>
           <Faq />
           <Testimonials />
@@ -45,7 +46,6 @@ export default function IndustriesPage() {
               </div>
             </div>
           </div>
-          <Cta />
         </div>
         <Footer4 />
       </div>

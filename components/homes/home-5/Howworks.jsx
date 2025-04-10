@@ -32,7 +32,7 @@ export default function Howworks() {
                         data-anime="onview: -100; targets: >*; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
                       >
                         <h3 className="h3 lg:h2 m-0">
-                          End-to-End Data Shared Management
+                          Tailored IT Solutions for Your Business Growth
                         </h3>
                         <p className="fs-6 lg:fs-5">
                           Whether you have a team of 2 or 200, our shared team
@@ -79,7 +79,7 @@ export default function Howworks() {
                         data-anime="onview: -100; targets: >*; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
                       >
                         <h3 className="h3 lg:h2 m-0">
-                          Unlock your Productivity Potential Now or Never
+                          Why Choose Our IT Support Services?
                         </h3>
                         <p className="fs-6 lg:fs-5">
                           Unlock your productivity potential with our intuitive

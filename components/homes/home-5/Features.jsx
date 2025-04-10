@@ -2,6 +2,7 @@ import { featureItems2 } from "@/data/features";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+
 export default function Features() {
   return (
     <div
@@ -16,15 +17,13 @@ export default function Features() {
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
               <span className="fw-bold py-narrow px-2 border rounded-pill text-primary dark:text-secondary">
-                Features
+                Services
               </span>
               <h2 className="h3 sm:h2 lg:h1 xl:display-6 m-0">
                 Recognized by the experts
               </h2>
               <p className="fs-7 sm:fs-6 lg:fs-5 xl:fs-4 text-opacity-70">
-                Offers a unified platform that fosters innovation while
-                providing end-to-end data management. See how we help your team
-                solve today’s biggest challenges.
+                We collaborate with innovative companies across various industries, ranging from 20 to 1,000 seats, who highly value technology and prioritize strong security measures.
               </p>
             </div>
             <div
@@ -56,7 +55,7 @@ export default function Features() {
                         </p>
                         <Link
                           className="uc-link dark:text-secondary fs-7 xl:fs-6 fw-bold hstack gap-1 sm:mt-1"
-                          href={`/page-features`}
+                          href={item.url}
                         >
                           <span>Learn more</span>
                           <i className="position-relative icon unicon-arrow-right fw-bold rtl:rotate-180 translate-y-px" />
@@ -66,6 +65,15 @@ export default function Features() {
                   </div>
                 </div>
               ))}
+            </div>
+            <div className="text-center mt-6 lg:mt-8">
+              <a
+                href="/page-services"
+                className="uc-link dark:text-secondary fw-bold d-inline-flex items-center gap-narrow"
+              >
+                <span>See all Services</span>
+                <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />
+              </a>
             </div>
           </div>
         </div>

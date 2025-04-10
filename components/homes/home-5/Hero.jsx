@@ -18,7 +18,7 @@ export default function Hero() {
                   data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
                 >
                   <h1 className="h2 sm:display-6 xl:display-4 fw-light mb-1 xl:mb-2">
-                    Use Data &amp; AI, Responsibly
+                  Reliable &amp; Managed, <br />IT Support
                   </h1>
                   <p className="fs-6 xl:fs-4">
                     Unlock your productivity potential with our
@@ -35,16 +35,15 @@ export default function Hero() {
                       <div>
                         <div className="form-group inline-block">
                           <input
-                            type="email"
                             className="form-control rounded-default h-48px w-full text-black bg-white"
-                            placeholder="Enter your email"
+                            placeholder="Search For Service"
                             required
                           />
                         </div>
                       </div>
                       <div className="col-12 sm:col-auto">
                         <button className="btn btn-md btn-primary rounded-default h-48px w-100 lg:min-w-150px text-white">
-                          Get a demo
+                          Search
                         </button>
                       </div>
                     </form>

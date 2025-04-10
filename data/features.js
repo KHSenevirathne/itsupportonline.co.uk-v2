@@ -154,37 +154,55 @@ export const features3 = [
 export const features4 = [
   {
     icon: "unicon-document",
-    title: "Proposals",
+    title: "Charities & Not for Profits",
     description:
       "Share Tools in minutes with pre-built, customizable templates.",
   },
   {
     icon: "unicon-model",
-    title: "Quotes",
+    title: "Construction & Engineering",
     description:
       "Find out in real time when they’re opened, viewed and signed.",
   },
   {
     icon: "unicon-task-approved",
-    title: "Contracts",
+    title: "Transport & Logistics",
     description:
       "Use our native CRM integrations to pull customer data into your Tools fast.",
   },
   {
     icon: "unicon-touch-interaction",
-    title: "eSignatures",
+    title: "Professional Services",
     description:
       "Keep your data secure with our legally-binding e-Signature software.",
   },
   {
     icon: "unicon-sub-volume",
-    title: "Forms",
+    title: "Financial Services",
     description:
       "Share via direct link or by embedding them on your website, no coding necessary.",
   },
   {
     icon: "unicon-currency",
-    title: "Payments",
+    title: "Manufacturing & Industry",
+    description:
+      "Collect them instantly right from your contract, while increasing your close rate by 36%.",
+  },
+  {
+    icon: "unicon-touch-interaction",
+    title: "Education",
+    description:
+      "Keep your data secure with our legally-binding e-Signature software.",
+  },
+  {
+    icon: "unicon-sub-volume",
+    title: "Sports",
+    description:
+      "Share via direct link or by embedding them on your website, no coding necessary.",
+  },
+  {
+    icon: "unicon-currency",
+    title: "Legal Firms",
     description:
       "Collect them instantly right from your contract, while increasing your close rate by 36%.",
   },
@@ -238,7 +256,8 @@ export const featureItems2 = [
     order: "order-1 lg:order-0",
     iconSrc: "/assets/images/common/icons/zap.svg",
     alt: "feature-icon",
-    title: "Fast and Reliable",
+    title: "Managed IT Services",
+    url:"/managed-it-services",
     description:
       "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
   },
@@ -246,7 +265,8 @@ export const featureItems2 = [
     order: "order-0",
     iconSrc: "/assets/images/common/icons/database.svg",
     alt: "feature-icon",
-    title: "Discover Data Everywhere",
+    title: "Cybersecurity",
+    url:"#",
     description:
       "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
     bgClass:
@@ -256,7 +276,8 @@ export const featureItems2 = [
     order: "order-2 sm:order-1 lg:order-0",
     iconSrc: "/assets/images/common/icons/puzzle.svg",
     alt: "feature-icon",
-    title: "Enrich Data with Context",
+    title: "IT Compliance",
+    url:"#",
     description:
       "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
   },
@@ -264,7 +285,8 @@ export const featureItems2 = [
     order: "order-1 lg:order-0",
     iconSrc: "/assets/images/common/icons/target.svg",
     alt: "feature-icon",
-    title: "Risk Management",
+    title: "Manage Cloud Service",
+    url:"#",
     description:
       "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
     bgClass:
@@ -274,7 +296,8 @@ export const featureItems2 = [
     order: "order-3 lg:order-0",
     iconSrc: "/assets/images/common/icons/line-chart.svg",
     alt: "feature-icon",
-    title: "Privacy Compliance",
+    title: "IT Audit",
+    url:"#",
     description:
       "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
   },
@@ -282,7 +305,8 @@ export const featureItems2 = [
     order: "order-2 lg:order-0",
     iconSrc: "/assets/images/common/icons/settings.svg",
     alt: "feature-icon",
-    title: "Third-Party Management",
+    title: "VoIP Phone Service",
+    url:"#",
     description:
       "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
     bgClass:
