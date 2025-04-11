@@ -3,9 +3,9 @@ import Header4 from "@/components/headers/Header4";
 import Footer4 from "@/components/footers/Footer4";
 export const metadata = {
   title:
-    "Home || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Home || IT Support - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "IT Support - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function page() {
   return (

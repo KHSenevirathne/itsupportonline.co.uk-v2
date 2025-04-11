@@ -4,9 +4,9 @@ import Hero from "@/components/itservicespages/manageitservice/Hero";
 
 export const metadata = {
     title:
-        "Manage IT Services || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+        "Manage IT Services || IT Support - Full-featured, professional-looking software, saas and startup nextjs template.",
     description:
-        "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+        "IT Support - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 
 export default function ManageITService() {

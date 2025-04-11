@@ -9,9 +9,9 @@ import Cta from "@/components/innerpages/features/Cta";
 import Brands2 from "@/components/common/Brands2";
 export const metadata = {
   title:
-    "Industries || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Industries || IT Support - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "IT Support - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function IndustriesPage() {
   return (

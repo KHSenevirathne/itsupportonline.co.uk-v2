@@ -49,7 +49,7 @@ export default function About() {
                 In 2014, Steven Smith have gotten so much of our time back that
                 we're now able to put towards things that are actually helping
                 our company as opposed to just throwing content out there. and
-                the idea of Lexend was born. Today, Lexend empowers teams to
+                the idea of IT Support was born. Today, IT Support empowers teams to
                 easily communicate with customers through personalized documents
                 that can be created in minutes, build meaningful relationships.
               </p>

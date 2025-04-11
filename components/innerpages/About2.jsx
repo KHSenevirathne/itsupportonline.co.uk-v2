@@ -39,9 +39,9 @@ export default function About2() {
             >
               <h2 className="h3 lg:h2 mb-4">How IT Support helps</h2>
               <p className="fs-5 xl:fs-4 text-dark dark:text-white text-opacity-70">
-                Teams use Lexend to improve document workflows, insights, and
+                Teams use IT Support to improve document workflows, insights, and
                 speed while delivering an amazing experience for their
-                customers. Businesses trust Lexend’s all-in-one document
+                customers. Businesses trust IT Support’s all-in-one document
                 automation software to streamline the process to create,
                 approve, and eSign proposals, quotes, contracts, and more. With
                 powerful document creation and workflow capabilities, teams can
@@ -52,7 +52,7 @@ export default function About2() {
                 In 2014, Steven Smith have gotten so much of our time back that
                 we're now able to put towards things that are actually helping
                 our company as opposed to just throwing content out there. and
-                the idea of Lexend was born. Today, Lexend empowers teams to
+                the idea of IT Support was born. Today, IT Support empowers teams to
                 easily communicate with customers through personalized documents
                 that can be created in minutes, build meaningful relationships..
               </p>

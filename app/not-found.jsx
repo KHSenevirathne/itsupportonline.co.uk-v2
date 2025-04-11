@@ -4,9 +4,9 @@ import Footer4 from "@/components/footers/Footer4";
 import Notfound from "@/components/otherPages/404";
 export const metadata = {
   title:
-    "Not Found || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Not Found || IT Support - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "IT Support - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function NotFoundPage() {
   return (
