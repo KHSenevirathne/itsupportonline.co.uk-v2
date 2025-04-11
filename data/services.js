@@ -43,7 +43,7 @@ export const featuresMenu = [
 export const ourservices = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/feature-01.svg",
+    imgSrc: "/assets/images/template/services-01.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Managed IT Services",
     description:
@@ -52,7 +52,7 @@ export const ourservices = [
   },
   {
     id: 2,
-    imgSrc: "/assets/images/template/feature-02.svg",
+    imgSrc: "/assets/images/template/services-02.webp",
     imgAlt: "Connect every part of your entire business",
     title: "Cybersecurity",
     description:
@@ -61,7 +61,7 @@ export const ourservices = [
   },
   {
     id: 3,
-    imgSrc: "/assets/images/template/feature-03.svg",
+    imgSrc: "/assets/images/template/services-03.webp",
     imgAlt: "Maintain compliance and control your apps",
     title: "IT Compliance",
     description:
@@ -70,7 +70,7 @@ export const ourservices = [
   },
   {
     id: 4,
-    imgSrc: "/assets/images/template/feature-04.svg",
+    imgSrc: "/assets/images/template/services-04.webp",
     imgAlt: "Review quickly and confidently",
     title: "Managed Cloud Services",
     description:
@@ -79,7 +79,7 @@ export const ourservices = [
   },
   {
     id: 5,
-    imgSrc: "/assets/images/template/feature-01.svg",
+    imgSrc: "/assets/images/template/services-05.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "IT Audit",
     description:
@@ -88,7 +88,7 @@ export const ourservices = [
   },
   {
     id: 6,
-    imgSrc: "/assets/images/template/feature-02.svg",
+    imgSrc: "/assets/images/template/services-06.webp",
     imgAlt: "Connect every part of your entire business",
     title: "VoIP Phone Services",
     description:
@@ -97,7 +97,7 @@ export const ourservices = [
   },
   {
     id: 7,
-    imgSrc: "/assets/images/template/feature-03.svg",
+    imgSrc: "/assets/images/template/services-07.webp",
     imgAlt: "Maintain compliance and control your apps",
     title: "IT Consulting",
     description:
@@ -106,7 +106,7 @@ export const ourservices = [
   },
   {
     id: 8,
-    imgSrc: "/assets/images/template/feature-04.svg",
+    imgSrc: "/assets/images/template/services-08.webp",
     imgAlt: "Review quickly and confidently",
     title: "Help Desk Support Services",
     description:
@@ -115,7 +115,7 @@ export const ourservices = [
   },
   {
     id: 9,
-    imgSrc: "/assets/images/template/feature-01.svg",
+    imgSrc: "/assets/images/template/services-09.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Data Backup and Recovery",
     description:
@@ -124,7 +124,7 @@ export const ourservices = [
   },
   {
     id: 10,
-    imgSrc: "/assets/images/template/feature-02.svg",
+    imgSrc: "/assets/images/template/services-10.webp",
     imgAlt: "Connect every part of your entire business",
     title: "Network Management and Monitoring",
     description:
@@ -133,7 +133,7 @@ export const ourservices = [
   },
   {
     id: 11,
-    imgSrc: "/assets/images/template/feature-03.svg",
+    imgSrc: "/assets/images/template/services-11.webp",
     imgAlt: "Maintain compliance and control your apps",
     title: "Software Development and Maintenanceg",
     description:
@@ -142,7 +142,7 @@ export const ourservices = [
   },
   {
     id: 12,
-    imgSrc: "/assets/images/template/feature-04.svg",
+    imgSrc: "/assets/images/template/services-12.webp",
     imgAlt: "Review quickly and confidently",
     title: "Hardware Installation and Maintenance",
     description:

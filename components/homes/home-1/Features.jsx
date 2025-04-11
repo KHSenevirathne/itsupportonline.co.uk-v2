@@ -126,7 +126,7 @@ export default function Features() {
                             <Image
                               className="media-cover image"
                               alt="Connect every part of your entire business"
-                              src="/assets/images/template/feature-image-03.jpg"
+                              src="/assets/images/template/feature-image-03.webp"
                               width="1200"
                               height="1200"
                             />
@@ -170,7 +170,7 @@ export default function Features() {
                             <Image
                               className="media-cover image"
                               alt="Maintain compliance and control your apps"
-                              src="/assets/images/template/feature-image-01.jpg"
+                              src="/assets/images/template/feature-image-01.webp"
                               width="1200"
                               height="1200"
                             />
