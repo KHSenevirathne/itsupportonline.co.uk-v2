@@ -106,7 +106,7 @@ export default function Header4() {
                     <Image
                       className="d-none dark:d-block"
                       alt="IT support"
-                      src="/assets/images/common/logo.png"
+                      src="/assets/images/common/logo-dark.png"
                       width="117"
                       height="40"
                     />

@@ -154,57 +154,39 @@ export const features3 = [
 export const features4 = [
   {
     icon: "unicon-document",
-    title: "Charities & Not for Profits",
+    title: "Professional Services",
     description:
-      "Share Tools in minutes with pre-built, customizable templates.",
+      "We empower professional service firms with robust IT, ensuring secure, efficient, and compliant operations for client-focused success.",
+  },
+  {
+    icon: "unicon-currency",
+    title: "Financial Services",
+    description:
+      "We provide secure, compliant IT solutions for financial institutions, ensuring data protection and operational efficiency in a regulated environment.",
   },
   {
     icon: "unicon-model",
     title: "Construction & Engineering",
     description:
-      "Find out in real time when they’re opened, viewed and signed.",
+      "We deliver reliable IT infrastructure and support for construction and engineering, driving project efficiency and seamless collaboration.",
+  },
+  {
+    icon: "unicon-analytics",
+    title: "Transport & Logistics",
+    description:
+      "We optimize transport and logistics IT, ensuring seamless operations, robust tracking, and efficient supply chain management.",
+  },
+  {
+    icon: "unicon-sub-volume",
+    title: "Manufacturing & Industry",
+    description:
+      "We provide resilient IT solutions for manufacturing, enhancing production efficiency, data security, and operational reliability.",
   },
   {
     icon: "unicon-task-approved",
-    title: "Transport & Logistics",
-    description:
-      "Use our native CRM integrations to pull customer data into your Tools fast.",
-  },
-  {
-    icon: "unicon-touch-interaction",
-    title: "Professional Services",
-    description:
-      "Keep your data secure with our legally-binding e-Signature software.",
-  },
-  {
-    icon: "unicon-sub-volume",
-    title: "Financial Services",
-    description:
-      "Share via direct link or by embedding them on your website, no coding necessary.",
-  },
-  {
-    icon: "unicon-currency",
-    title: "Manufacturing & Industry",
-    description:
-      "Collect them instantly right from your contract, while increasing your close rate by 36%.",
-  },
-  {
-    icon: "unicon-touch-interaction",
     title: "Education",
     description:
-      "Keep your data secure with our legally-binding e-Signature software.",
-  },
-  {
-    icon: "unicon-sub-volume",
-    title: "Sports",
-    description:
-      "Share via direct link or by embedding them on your website, no coding necessary.",
-  },
-  {
-    icon: "unicon-currency",
-    title: "Legal Firms",
-    description:
-      "Collect them instantly right from your contract, while increasing your close rate by 36%.",
+      "We deliver reliable IT infrastructure for educational institutions, enhancing learning, collaboration, and administrative efficiency for students and staff.",
   },
 ];
 
@@ -259,7 +241,7 @@ export const featureItems2 = [
     title: "Managed IT Services",
     url:"/managed-it-services",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Comprehensive IT management, including proactive monitoring, maintenance, and security to ensure optimal system performance.",
   },
   {
     order: "order-0",
@@ -268,7 +250,7 @@ export const featureItems2 = [
     title: "Cybersecurity",
     url:"#",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Robust protection against cyber threats, with vigilant monitoring and rapid response to safeguard critical data and systems.",
     bgClass:
       "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-bottom-end-0 lg:rounded-bottom-0",
   },
@@ -279,7 +261,7 @@ export const featureItems2 = [
     title: "IT Compliance",
     url:"#",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Ensuring your IT infrastructure adheres to industry regulations, mitigating risks and maintaining compliance standards.",
   },
   {
     order: "order-1 lg:order-0",
@@ -288,7 +270,7 @@ export const featureItems2 = [
     title: "Manage Cloud Service",
     url:"#",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Expert cloud management, optimizing performance, security, and cost-efficiency for your cloud-based infrastructure and applications.",
     bgClass:
       "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-start-0 lg:rounded-top-end-0 lg:rounded-start-1-5",
   },
@@ -299,7 +281,7 @@ export const featureItems2 = [
     title: "IT Audit",
     url:"#",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Thorough evaluation of IT systems and processes, identifying vulnerabilities and recommending improvements for enhanced efficiency and security.",
   },
   {
     order: "order-2 lg:order-0",
@@ -308,7 +290,7 @@ export const featureItems2 = [
     title: "VoIP Phone Service",
     url:"#",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Reliable and scalable internet-based phone solutions, providing cost-effective communication and enhanced collaboration capabilities.",
     bgClass:
       "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-top-end-0 lg:rounded-top-start-0 lg:rounded-top-end-1-5",
   },

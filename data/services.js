@@ -47,7 +47,7 @@ export const ourservices = [
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Managed IT Services",
     description:
-      "This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables. You can also customize your own dynamic versions.",
+      "Comprehensive IT management, including proactive monitoring, maintenance, and security to ensure optimal system performance.",
     link: { text: "View More", href: "/managed-it-services" },
   },
   {
@@ -56,7 +56,7 @@ export const ourservices = [
     imgAlt: "Connect every part of your entire business",
     title: "Cybersecurity",
     description:
-      "Keep data consistent, with native CRM integrations that streamline your entire Tool workflow.",
+      "Robust protection against cyber threats, with vigilant monitoring and rapid response to safeguard critical data and systems.",
     link: { text: "View More", href: "#" },
   },
   {
@@ -65,7 +65,7 @@ export const ourservices = [
     imgAlt: "Maintain compliance and control your apps",
     title: "IT Compliance",
     description:
-      "Improve security and trust with built-in legally binding e-Signatures. Create pre-approved templates, content blocks, and lock all legal information to prevent costly mistakes.",
+      "Ensuring your IT infrastructure adheres to industry regulations, mitigating risks and maintaining compliance standards.",
     link: { text: "View More", href: "#" },
   },
   {
@@ -74,7 +74,7 @@ export const ourservices = [
     imgAlt: "Review quickly and confidently",
     title: "Managed Cloud Services",
     description:
-      "Get real-time access to approvals, comments, and version tracking. Smart features like variables and conditional logic help you eliminate Tool errors.",
+      "Expert cloud management, optimizing performance, security, and cost-efficiency for your cloud-based infrastructure and applications.",
     link: { text: "View More", href: "#" },
   },
   {
@@ -83,7 +83,7 @@ export const ourservices = [
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "IT Audit",
     description:
-      "This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables. You can also customize your own dynamic versions.",
+      "Thorough evaluation of IT systems and processes, identifying vulnerabilities and recommending improvements for enhanced efficiency and security.",
     link: { text: "View More", href: "#" },
   },
   {
@@ -92,7 +92,7 @@ export const ourservices = [
     imgAlt: "Connect every part of your entire business",
     title: "VoIP Phone Services",
     description:
-      "Keep data consistent, with native CRM integrations that streamline your entire Tool workflow.",
+      "Reliable and scalable internet-based phone solutions, providing cost-effective communication and enhanced collaboration capabilities.",
     link: { text: "View More", href: "#" },
   },
   {
@@ -101,7 +101,7 @@ export const ourservices = [
     imgAlt: "Maintain compliance and control your apps",
     title: "IT Consulting",
     description:
-      "Improve security and trust with built-in legally binding e-Signatures. Create pre-approved templates, content blocks, and lock all legal information to prevent costly mistakes.",
+      "Strategic IT guidance and expert advice, helping businesses align technology with their goals and optimize operations.",
     link: { text: "View More", href: "#" },
   },
   {
@@ -110,7 +110,7 @@ export const ourservices = [
     imgAlt: "Review quickly and confidently",
     title: "Help Desk Support Services",
     description:
-      "Get real-time access to approvals, comments, and version tracking. Smart features like variables and conditional logic help you eliminate Tool errors.",
+      "Responsive technical assistance and troubleshooting, resolving end-user issues promptly and minimizing disruptions to productivity.",
     link: { text: "View More", href: "#" },
   },
   {
@@ -119,7 +119,7 @@ export const ourservices = [
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Data Backup and Recovery",
     description:
-      "This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables. You can also customize your own dynamic versions.",
+      "Secure data storage and reliable recovery solutions, ensuring business continuity and minimizing data loss in unforeseen events.",
     link: { text: "View More", href: "#" },
   },
   {
@@ -128,7 +128,7 @@ export const ourservices = [
     imgAlt: "Connect every part of your entire business",
     title: "Network Management and Monitoring",
     description:
-      "Keep data consistent, with native CRM integrations that streamline your entire Tool workflow.",
+      "Continuous network monitoring, performance optimization, and security management to provide reliable and secure network operations.",
     link: { text: "View More", href: "#" },
   },
   {
@@ -137,7 +137,7 @@ export const ourservices = [
     imgAlt: "Maintain compliance and control your apps",
     title: "Software Development and Maintenanceg",
     description:
-      "Improve security and trust with built-in legally binding e-Signatures. Create pre-approved templates, content blocks, and lock all legal information to prevent costly mistakes.",
+      "Custom software development, and ongoing maintenance to ensure software solutions align with business needs.",
     link: { text: "View More", href: "#" },
   },
   {
@@ -146,7 +146,7 @@ export const ourservices = [
     imgAlt: "Review quickly and confidently",
     title: "Hardware Installation and Maintenance",
     description:
-      "Get real-time access to approvals, comments, and version tracking. Smart features like variables and conditional logic help you eliminate Tool errors.",
+      "Professional hardware installation, configuration, and maintenance services to ensure optimal performance and longevity.",
     link: { text: "View More", href: "#" },
   },
 ];
