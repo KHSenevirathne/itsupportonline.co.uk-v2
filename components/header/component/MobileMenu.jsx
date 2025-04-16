@@ -90,7 +90,7 @@ export default function MobileMenu() {
               <Image
                 className="w-32px"
                 alt="IT Support"
-                src="/assets/images/common/logo-mark.svg"
+                src="/assets/images/common/logo-mark.webp"
                 width="34"
                 height="34"
               />
@@ -231,10 +231,7 @@ export default function MobileMenu() {
             ))}
             <li className="hr opacity-10 my-1" />
             <li>
-              <Link href={`/sign-up`}>Create an account</Link>
-            </li>
-            <li>
-              <Link href={`/sign-in`}>Log in</Link>
+              <Link className="btn btn-md btn-primary rounded-default px-3 text-white shadow-xs" href={`/free-consultation`}>Free Consultation</Link>
             </li>
           </ul>
           <ul className="social-icons nav-x mt-4">

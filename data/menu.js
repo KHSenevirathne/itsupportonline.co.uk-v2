@@ -1,182 +1,33 @@
 export const menuItems = [
   {
     id: 1,
-    href: "/",
-    label: "Home",
+    href: "/services",
+    label: "IT Services",
   },
   {
     id: 2,
-    href: "/page-features",
-    label: "Features",
+    href: "/who-we-serve",
+    label: "Who We Serve",
   },
   {
     id: 3,
-    href: "/page-pricing",
-    label: "Pricing",
+    href: "/about",
+    label: "About Us",
   },
   {
     id: 4,
-    href: "/about",
-    label: "About",
+    href: "/contact",
+    label: "Contact Us",
   },
   {
     id: 5,
-    href: "/careers",
-    label: "Career",
+    href: "/blog",
+    label: "Blogs",
   },
   {
     id: 6,
-    href: "/contact",
-    label: "Contact",
-  },
-  {
-    id: 7,
-    label: "Inner Pages",
-    subItems: [
-      {
-        label: "Blog",
-        subItems: [
-          {
-            href: "/blog",
-            label: "Full Width",
-          },
-          {
-            href: "/blog-2cols",
-            label: "Grid 2 Cols",
-          },
-          {
-            href: "/blog-sidebar",
-            label: "Sidebar",
-          },
-          {
-            href: "/blog-sidebar-left",
-            label: "Sidebar Left",
-          },
-          {
-            href: "/blog-3cols/",
-            label: "Grid 3 Cols",
-          },
-          {
-            href: "/blog-4cols/",
-            label: "Grid 4 Cols",
-          },
-        ],
-      },
-      {
-        label: "Blog - detail",
-        subItems: [
-          {
-            href: "/blog-details/1",
-            label: "Blog detail",
-          },
-          {
-            href: "/blog-details-2/1",
-            label: "Blog detail - v2",
-          },
-        ],
-      },
-      {
-        label: "Useful pages",
-        subItems: [
-          {
-            href: "/sign-up",
-            label: "Sign up",
-          },
-          {
-            href: "/sign-in",
-            label: "Sign in",
-          },
-          {
-            href: "/reset-password",
-            label: "Reset password",
-          },
-          {
-            href: "/page-not-found",
-            label: "404 page",
-          },
-          {
-            href: "/coming-soon",
-            label: "Coming soon",
-          },
-        ],
-      },
-      {
-        label: "Other pages",
-        subItems: [
-          {
-            href: "/page-terms",
-            label: "FAQ",
-          },
-          {
-            href: "/page-terms",
-            label: "Terms of use",
-          },
-          {
-            href: "/page-privacy",
-            label: "Privacy policy",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 8,
-    label: "Shop",
-    subItems: [
-      {
-        label: "Shop layouts",
-        subItems: [
-          {
-            href: "/shop",
-            label: "Shop 4 cols",
-          },
-          {
-            href: "/shop-3",
-            label: "Shop 3 cols",
-          },
-          {
-            href: "/shop-2",
-            label: "Shop 2 cols",
-          },
-          {
-            href: "/shop-sidebar",
-            label: "Shop with sidebar",
-          },
-        ],
-      },
-      {
-        href: "/shop-category/demo",
-        label: "Archive category",
-      },
-      {
-        href: "/shop-product-detail/2",
-        label: "Product detail",
-      },
-      {
-        href: "/shop-product-detail-2/2",
-        label: "Product detail - v2",
-      },
-      {
-        href: "/shop-cart",
-        label: "Cart",
-      },
-      {
-        href: "/shop-cart-2",
-        label: "Cart - v2",
-      },
-      {
-        href: "/shop-checkout",
-        label: "Checkout",
-      },
-      {
-        href: "/shop-checkout-2",
-        label: "Checkout - v2",
-      },
-      {
-        href: "/shop-order",
-        label: "Order confirmation",
-      },
-    ],
+    href: "/careers",
+    label: "Careers",
   },
 ];
 

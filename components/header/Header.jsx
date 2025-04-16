@@ -4,7 +4,6 @@ import Nav from "./component/Nav";
 import Link from "next/link";
 import Image from "next/image";
 import { openMobileMenu } from "@/utlis/toggleMobileMenu";
-import LanguageSelect2 from "../common/LanguageSelect2";
 
 export default function Header() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
