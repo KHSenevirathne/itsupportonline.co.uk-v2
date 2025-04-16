@@ -278,7 +278,7 @@ export const pricingPlans3 = [
       "Third-Party Management",
     ],
     included: [true, true, true, true, true, true],
-    link: "/page-contact-2",
+    link: "/contact-2",
     buttonClass: "btn-ghost-tertiary",
   },
 ];
@@ -366,7 +366,7 @@ export const pricingPlans5 = [
     ],
     cta: {
       text: "Get in touch",
-      link: "/page-contact-2",
+      link: "/contact-2",
     },
     bgColor: "bg-gray-300 bg-opacity-15 text-white",
   },

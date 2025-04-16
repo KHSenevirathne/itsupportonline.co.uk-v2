@@ -8,7 +8,7 @@ export default function Nav3() {
   return (
     <>
       <li className="has-dd-menu ">
-        <a href="/page-services" role="button" aria-haspopup="true">
+        <a href="/services" role="button" aria-haspopup="true">
           IT Services{" "}
           <span
             data-uc-navbar-parent-icon=""
@@ -36,7 +36,7 @@ export default function Nav3() {
                           Discover our IT Services &amp; Solutions
                         </h5>
                         <Link
-                          href={`/page-services`}
+                          href={`/services`}
                           className="btn btn-sm dark:text-white"
                         >
                           <span>See Our Services</span>
@@ -110,7 +110,7 @@ export default function Nav3() {
         </div>
       </li>
       <li>
-        <Link href={`/page-industries`}>Who We Serve</Link>
+        <Link href={`/who-we-serve`}>Who We Serve</Link>
       </li>
       <li className="has-dd-menu" style={{ position: "relative" }}>
         <a href="#" role="button" aria-haspopup="true">
@@ -188,7 +188,7 @@ export default function Nav3() {
                 <li>
                   <Link
                     className="hstack items-start gap-2 p-2 hover:bg-primary hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
-                    href={`/page-career`}
+                    href={`/careers`}
                   >
                     <i className="icon-1 unicon-star fw-bold text-primary dark:text-secondary" />
                     <span className="vstack gap-narrow mt-nnarrow">
@@ -203,7 +203,7 @@ export default function Nav3() {
                 <li>
                   <Link
                     className="hstack items-start gap-2 p-2 hover:bg-primary hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5"
-                    href={`/page-contact`}
+                    href={`/contact`}
                   >
                     <i className="icon-1 unicon-headset fw-bold text-primary dark:text-secondary" />
                     <span className="vstack gap-narrow mt-nnarrow">
@@ -221,14 +221,14 @@ export default function Nav3() {
       </li>
       <li>
         <a
-          href="/page-about"
+          href="/about"
         >
           About Us
         </a>
       </li>
       <li>
         <a
-          href="/page-contact"
+          href="/contact"
         >
           Contact Us
         </a>

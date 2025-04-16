@@ -1,13 +1,13 @@
 export const footerLinks = [
   {
     links: [
-      { href: "/page-about", label: "About" },
+      { href: "/about", label: "About" },
       { href: "/page-pricing", label: "Pricing" },
       { href: "/page-features", label: "Features" },
       { href: "/page-integrations", label: "Integrations" },
-      { href: "/page-career", label: "Career" },
-      { href: "/page-contact", label: "Contact" },
-      { href: "/page-contact-2", label: "Contact v2" },
+      { href: "/careers", label: "Career" },
+      { href: "/contact", label: "Contact" },
+      { href: "/contact-2", label: "Contact v2" },
     ],
   },
   {
@@ -51,10 +51,10 @@ export const footerLinks2 = [
     links: [
       { href: "/page-features", label: "Features" },
       { href: "/page-pricing", label: "Pricing" },
-      { href: "/page-about", label: "About" },
-      { href: "/page-career", label: "Career" },
-      { href: "/page-contact", label: "Contact" },
-      { href: "/page-contact-2", label: "Contact v2" },
+      { href: "/about", label: "About" },
+      { href: "/careers", label: "Career" },
+      { href: "/contact", label: "Contact" },
+      { href: "/contact-2", label: "Contact v2" },
     ],
   },
   {
@@ -107,13 +107,13 @@ export const footerLinks3 = [
   {
     title: "Product",
     links: [
-      { href: "/page-about", label: "Product" },
+      { href: "/about", label: "Product" },
       { href: "/page-pricing", label: "Overview" },
       { href: "/page-features", label: "Features" },
       { href: "/page-integrations", label: "Solutions" },
-      { href: "/page-career", label: "Tutorials" },
-      { href: "/page-contact", label: "Pricing" },
-      { href: "/page-contact-2", label: "Releases" },
+      { href: "/careers", label: "Tutorials" },
+      { href: "/contact", label: "Pricing" },
+      { href: "/contact-2", label: "Releases" },
     ],
   },
   {
@@ -182,8 +182,8 @@ export const footerLinks4 = [
   {
     title: "Company",
     links: [
-      { text: "About us", href: "/page-about", isLink: true },
-      { text: "Careers", href: "/page-career", isLink: true },
+      { text: "About us", href: "/about", isLink: true },
+      { text: "Careers", href: "/careers", isLink: true },
       { text: "Press", href: "#" },
       { text: "News", href: "/blog", isLink: true },
       { text: "Media kit", href: "#" },
@@ -226,11 +226,11 @@ export const footerLinks5 = [
   {
     title: "Company",
     links: [
-      { text: "About us", href: "/page-about" },
-      { text: "Careers", href: "/page-career" },
+      { text: "About us", href: "/about" },
+      { text: "Careers", href: "/careers" },
       { text: "Press", href: "/blog-sidebar" },
       { text: "News", href: "/blog-sidebar" },
-      { text: "Contact", href: "/page-contact" },
+      { text: "Contact", href: "/contact" },
     ],
   },
   {
@@ -259,8 +259,8 @@ export const footerLinks6 = [
   },
   {
     links: [
-      { text: "About us", href: "/page-about", isLink: true },
-      { text: "Careers", href: "/page-career", isLink: true },
+      { text: "About us", href: "/about", isLink: true },
+      { text: "Careers", href: "/careers", isLink: true },
       { text: "Press", href: "#", isLink: false },
       { text: "News", href: "/blog", isLink: true },
       { text: "Media kit", href: "#", isLink: false },

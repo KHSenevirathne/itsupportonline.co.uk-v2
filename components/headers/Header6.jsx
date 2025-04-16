@@ -380,7 +380,7 @@ export default function Header6({ staticPosition = false }) {
                                       <h5 className="h6">Start with ease!</h5>
                                       <ul className="uc-nav uc-navbar-dropdown-nav fs-7 fw-normal row child-cols-12">
                                         <li>
-                                          <Link href={`/page-contact`}>
+                                          <Link href={`/contact`}>
                                             Hire an Expert
                                           </Link>
                                         </li>
@@ -396,12 +396,12 @@ export default function Header6({ staticPosition = false }) {
                                           </Link>
                                         </li>
                                         <li>
-                                          <Link href={`/page-career`}>
+                                          <Link href={`/careers`}>
                                             Career
                                           </Link>
                                         </li>
                                         <li>
-                                          <Link href={`/page-contact`}>
+                                          <Link href={`/contact`}>
                                             Help Center
                                           </Link>
                                         </li>
@@ -465,7 +465,7 @@ export default function Header6({ staticPosition = false }) {
                 <div className="uc-navbar-right">
                   <ul className="nav-x d-none lg:d-flex">
                     <li className="d-none xl:d-inline-flex">
-                      <Link href={`/page-contact-2`}>Contact sales</Link>
+                      <Link href={`/contact-2`}>Contact sales</Link>
                     </li>
                     <li>
                       <Link href={`/sign-in`}>Log in</Link>

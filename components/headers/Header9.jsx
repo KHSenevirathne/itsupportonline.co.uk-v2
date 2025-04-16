@@ -52,7 +52,7 @@ export default function Header9() {
                     <Link href={`/page-blog`}>Blog</Link>
                   </li>
                   <li>
-                    <Link href={`/page-about`}>About</Link>
+                    <Link href={`/about`}>About</Link>
                   </li>
                 </ul>
               </div>

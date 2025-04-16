@@ -248,7 +248,7 @@ export const featureItems2 = [
     iconSrc: "/assets/images/common/icons/database.svg",
     alt: "feature-icon",
     title: "Cybersecurity",
-    url:"#",
+    url:"/cybersecurity",
     description:
       "Robust protection against cyber threats, with vigilant monitoring and rapid response to safeguard critical data and systems.",
     bgClass:
@@ -259,7 +259,7 @@ export const featureItems2 = [
     iconSrc: "/assets/images/common/icons/puzzle.svg",
     alt: "feature-icon",
     title: "IT Compliance",
-    url:"#",
+    url:"/it-compliance",
     description:
       "Ensuring your IT infrastructure adheres to industry regulations, mitigating risks and maintaining compliance standards.",
   },
@@ -268,7 +268,7 @@ export const featureItems2 = [
     iconSrc: "/assets/images/common/icons/target.svg",
     alt: "feature-icon",
     title: "Manage Cloud Service",
-    url:"#",
+    url:"/managed-cloud-services",
     description:
       "Expert cloud management, optimizing performance, security, and cost-efficiency for your cloud-based infrastructure and applications.",
     bgClass:
@@ -279,7 +279,7 @@ export const featureItems2 = [
     iconSrc: "/assets/images/common/icons/line-chart.svg",
     alt: "feature-icon",
     title: "IT Audit",
-    url:"#",
+    url:"/it-audit",
     description:
       "Thorough evaluation of IT systems and processes, identifying vulnerabilities and recommending improvements for enhanced efficiency and security.",
   },
@@ -288,7 +288,7 @@ export const featureItems2 = [
     iconSrc: "/assets/images/common/icons/settings.svg",
     alt: "feature-icon",
     title: "VoIP Phone Service",
-    url:"#",
+    url:"/voip-phone-services",
     description:
       "Reliable and scalable internet-based phone solutions, providing cost-effective communication and enhanced collaboration capabilities.",
     bgClass:

@@ -5,9 +5,9 @@ import Newsletter from "@/components/blog/Newsletter";
 import Blogs1 from "@/components/blog/Blogs1";
 export const metadata = {
   title:
-    "Blog 1 || IT Support - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Blog - IT Support",
   description:
-    "IT Support - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "IT Support services UK company in London for expert technology advice to help business growth! Trusted IT specialists by over 200+ companies For over 10 years.",
 };
 export default function BlogPage1() {
   return (

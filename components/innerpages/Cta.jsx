@@ -91,7 +91,7 @@ export default function Cta() {
                 Have what it takes to be one of us.
               </p>
               <Link
-                href={`/page-career`}
+                href={`/careers`}
                 className="btn btn-md lg:btn-lg btn-primary text-white mt-1 xl:mt-2"
               >
                 View current openings

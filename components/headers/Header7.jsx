@@ -220,7 +220,7 @@ export default function Header7() {
                     <Link href={`/page-pricing-2`}>Pricing</Link>
                   </li>
                   <li>
-                    <Link href={`/page-about`}>About</Link>
+                    <Link href={`/about`}>About</Link>
                   </li>
                 </ul>
               </div>

@@ -18,7 +18,7 @@ export default function Cta() {
               </p>
               <div className="hstack justify-center gap-1 lg:gap-2 mt-1">
                 <Link
-                  href={`/page-services`}
+                  href={`/services`}
                   className="btn btn-md rounded-default bg-white dark:bg-gray-700 dark:text-white border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40 shadow-xs"
                   
                 >
@@ -26,7 +26,7 @@ export default function Cta() {
                   <span>Our Services</span>
                 </Link>
                 <Link
-                  href={`/page-consultation`}
+                  href={`/free-consultation`}
                   className="btn btn-md btn-primary rounded-default text-white shadow-xs"
                 >
                   Get Free Consultation

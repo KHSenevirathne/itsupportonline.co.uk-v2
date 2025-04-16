@@ -57,7 +57,7 @@ export const ourservices = [
     title: "Cybersecurity",
     description:
       "Robust protection against cyber threats, with vigilant monitoring and rapid response to safeguard critical data and systems.",
-    link: { text: "View More", href: "#" },
+    link: { text: "View More", href: "/cybersecurity" },
   },
   {
     id: 3,
@@ -66,7 +66,7 @@ export const ourservices = [
     title: "IT Compliance",
     description:
       "Ensuring your IT infrastructure adheres to industry regulations, mitigating risks and maintaining compliance standards.",
-    link: { text: "View More", href: "#" },
+    link: { text: "View More", href: "/it-compliance" },
   },
   {
     id: 4,
@@ -75,7 +75,7 @@ export const ourservices = [
     title: "Managed Cloud Services",
     description:
       "Expert cloud management, optimizing performance, security, and cost-efficiency for your cloud-based infrastructure and applications.",
-    link: { text: "View More", href: "#" },
+    link: { text: "View More", href: "/managed-cloud-services" },
   },
   {
     id: 5,
@@ -84,7 +84,7 @@ export const ourservices = [
     title: "IT Audit",
     description:
       "Thorough evaluation of IT systems and processes, identifying vulnerabilities and recommending improvements for enhanced efficiency and security.",
-    link: { text: "View More", href: "#" },
+    link: { text: "View More", href: "/it-audit" },
   },
   {
     id: 6,
@@ -93,7 +93,7 @@ export const ourservices = [
     title: "VoIP Phone Services",
     description:
       "Reliable and scalable internet-based phone solutions, providing cost-effective communication and enhanced collaboration capabilities.",
-    link: { text: "View More", href: "#" },
+    link: { text: "View More", href: "/voip-phone-services" },
   },
   {
     id: 7,
@@ -102,7 +102,7 @@ export const ourservices = [
     title: "IT Consulting",
     description:
       "Strategic IT guidance and expert advice, helping businesses align technology with their goals and optimize operations.",
-    link: { text: "View More", href: "#" },
+    link: { text: "View More", href: "/it-consulting" },
   },
   {
     id: 8,
@@ -111,7 +111,7 @@ export const ourservices = [
     title: "Help Desk Support Services",
     description:
       "Responsive technical assistance and troubleshooting, resolving end-user issues promptly and minimizing disruptions to productivity.",
-    link: { text: "View More", href: "#" },
+    link: { text: "View More", href: "/help-desk-support" },
   },
   {
     id: 9,
@@ -120,7 +120,7 @@ export const ourservices = [
     title: "Data Backup and Recovery",
     description:
       "Secure data storage and reliable recovery solutions, ensuring business continuity and minimizing data loss in unforeseen events.",
-    link: { text: "View More", href: "#" },
+    link: { text: "View More", href: "/data-backup-recovery" },
   },
   {
     id: 10,
@@ -129,16 +129,16 @@ export const ourservices = [
     title: "Network Management and Monitoring",
     description:
       "Continuous network monitoring, performance optimization, and security management to provide reliable and secure network operations.",
-    link: { text: "View More", href: "#" },
+    link: { text: "View More", href: "/network-setup-management" },
   },
   {
     id: 11,
     imgSrc: "/assets/images/template/services-11.webp",
     imgAlt: "Maintain compliance and control your apps",
-    title: "Software Development and Maintenanceg",
+    title: "Software Development and Maintenance",
     description:
       "Custom software development, and ongoing maintenance to ensure software solutions align with business needs.",
-    link: { text: "View More", href: "#" },
+    link: { text: "View More", href: "/software-development-maintenance" },
   },
   {
     id: 12,
@@ -147,6 +147,15 @@ export const ourservices = [
     title: "Hardware Installation and Maintenance",
     description:
       "Professional hardware installation, configuration, and maintenance services to ensure optimal performance and longevity.",
-    link: { text: "View More", href: "#" },
+    link: { text: "View More", href: "/hardware-installation-setups" },
+  },
+  {
+    id: 13,
+    imgSrc: "/assets/images/template/services-01.webp",
+    imgAlt: "Review quickly and confidently",
+    title: "Remote Working Solutions",
+    description:
+      "We specialise in delivering smart remote working solutions that empower your staff to work securely and efficiently from home.",
+    link: { text: "View More", href: "/remote-working-solutions" },
   },
 ];

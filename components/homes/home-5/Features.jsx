@@ -68,7 +68,7 @@ export default function Features() {
             </div>
             <div className="text-center mt-6 lg:mt-8">
               <a
-                href="/page-services"
+                href="/services"
                 className="uc-link dark:text-secondary fw-bold d-inline-flex items-center gap-narrow"
               >
                 <span>See all Services</span>

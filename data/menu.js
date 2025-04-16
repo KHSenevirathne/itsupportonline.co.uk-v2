@@ -16,17 +16,17 @@ export const menuItems = [
   },
   {
     id: 4,
-    href: "/page-about",
+    href: "/about",
     label: "About",
   },
   {
     id: 5,
-    href: "/page-career",
+    href: "/careers",
     label: "Career",
   },
   {
     id: 6,
-    href: "/page-contact",
+    href: "/contact",
     label: "Contact",
   },
   {
@@ -288,11 +288,11 @@ export const pagesData = [
         label: "Integrations",
       },
       {
-        href: "/page-about",
+        href: "/about",
         label: "About",
       },
       {
-        href: "/page-career",
+        href: "/careers",
         label: "Career",
       },
       {
@@ -304,15 +304,15 @@ export const pagesData = [
         },
       },
       {
-        href: "/page-career-detail/2",
+        href: "/careers-detail/2",
         label: "Job details",
       },
       {
-        href: "/page-contact",
+        href: "/contact",
         label: "Contact",
       },
       {
-        href: "/page-contact-2",
+        href: "/contact-2",
         label: "Contact v2",
       },
       {
@@ -542,18 +542,18 @@ export const mainPages = [
     title: "Integrations",
   },
   {
-    href: "/page-about",
+    href: "/about",
     alt: "About",
-    src: "/assets/images/demos/screenshots/page-about.jpg",
+    src: "/assets/images/demos/screenshots/about.jpg",
     title: "About",
   },
 ];
 
 export const othermenuItems = [
-  { href: "/page-career", icon: "unicon-wikis", title: "Career" },
-  { href: "/page-career-detail/2", icon: "unicon-wikis", title: "Job details" },
-  { href: "/page-contact", icon: "unicon-wikis", title: "Contact" },
-  { href: "/page-contact-2", icon: "unicon-wikis", title: "Contact v2" },
+  { href: "/careers", icon: "unicon-wikis", title: "Career" },
+  { href: "/careers-detail/2", icon: "unicon-wikis", title: "Job details" },
+  { href: "/contact", icon: "unicon-wikis", title: "Contact" },
+  { href: "/contact-2", icon: "unicon-wikis", title: "Contact v2" },
   { href: "/blog", icon: "unicon-course", title: "Blog" },
   { href: "/blog-details/1", icon: "unicon-course", title: "Blog details" },
   {
@@ -601,78 +601,85 @@ export const features = [
     id: 2,
     iconClass: "unicon-data-base",
     title: "Cybersecurity",
-    url:"#",
+    url:"/cybersecurity",
     description: "Protecting data, systems, and networks from digital attacks",
   },
   {
     id: 3,
     iconClass: "unicon-increase-level",
     title: "IT Compliance",
-    url:"#",
+    url:"/it-compliance",
     description: "Ensuring adherence to relevant industry regulations and standards",
   },
   {
     id: 4,
     iconClass: "unicon-cloud-download",
     title: "Managed Cloud Services",
-    url:"#",
+    url:"/managed-cloud-services",
     description: "Cloud infrastructure management, optimization, and support",
   },
   {
     id: 5,
     iconClass: "unicon-analytics",
     title: "IT Audit",
-    url:"#",
+    url:"/it-audit",
     description: "Performing systematic evaluation of IT systems and processess",
   },
   {
     id: 6,
     iconClass: "unicon-phone",
     title: "VoIP Phone Services",
-    url:"#",
+    url:"/voip-phone-services",
     description: "Internet-based phone system, flexible and cost-effective communication",
   },
   {
     id: 7,
     iconClass: "unicon-magic-wand-filled",
     title: "IT Consulting",
-    url:"#",
+    url:"/it-consulting",
     description: "Providing expert advice for optimizing IT strategy and operations",
   },
   {
     id: 8,
     iconClass: "unicon-printer",
     title: "Help Desk Support Services",
-    url:"#",
+    url:"/help-desk-support",
     description: "Technical assistance and troubleshooting for end-user issues",
   },
   {
     id: 9,
     iconClass: "unicon-archive",
     title: "Data Backup and Recovery",
-    url:"#",
+    url:"/data-backup-recovery",
     description: "Secure data storage and quick restoration after losses",
   },
   {
     id: 10,
     iconClass: "unicon-container-software",
     title: "Network Management and Monitoring",
-    url:"#",
+    url:"/network-setup-management",
     description: "Ensuring network performance, security, and uptime",
   },
   {
     id: 11,
     iconClass: "unicon-shopping-catalog",
     title: "Software Development and Maintenance",
-    url:"#",
+    url:"/software-development-maintenance",
     description: "Custom software creation, updates, and ongoing support",
   },
   {
     id: 12,
     iconClass: "unicon-blog",
     title: "Hardware Installation and Maintenance",
-    url:"#",
+    url:"/hardware-installation-setups",
     description: "Installing, configuring, and maintaining IT hardware components",
+  },
+  {
+    id: 13,
+    iconClass: "unicon-blog",
+    title: "Remote Working Solutions",
+    url:"/remote-working-solutions",
+    description: "Empowering UK Businesses with Seamless Flexibility",
   },
 ];
 export const homeLinks = [
@@ -715,7 +722,7 @@ export const homeLinks = [
 export const links = [
   {
     id: 1,
-    href: "/page-career",
+    href: "/careers",
     label: "Hire an Expert",
     isInternal: true,
   },
@@ -739,7 +746,7 @@ export const links = [
   },
   {
     id: 5,
-    href: "/page-career",
+    href: "/careers",
     label: "Career",
     isInternal: true,
   },
@@ -751,7 +758,7 @@ export const links = [
   },
   {
     id: 7,
-    href: "/page-contact",
+    href: "/contact",
     label: "Get in touch",
     isInternal: true,
   },
@@ -817,12 +824,12 @@ export const sections = [
   {
     title: "Get started is Easy!",
     links: [
-      { href: "/page-contact", text: "Hire an Expert" },
+      { href: "/contact", text: "Hire an Expert" },
       { href: "#", text: "Customer stories" },
       { href: "#", text: "Resources" },
       { href: "/blog-sidebar", text: "Blog" },
-      { href: "/page-career", text: "Career" },
-      { href: "/page-contact", text: "Help Center" },
+      { href: "/careers", text: "Career" },
+      { href: "/contact", text: "Help Center" },
     ],
   },
   {
@@ -1060,12 +1067,12 @@ export const categories = [
   {
     title: "Get started is Easy!",
     links: [
-      { text: "Hire an Expert", href: "/page-contact" },
+      { text: "Hire an Expert", href: "/contact" },
       { text: "Customer stories", href: "#" },
       { text: "Resources", href: "#" },
       { text: "Blog", href: "/blog-sidebar" },
-      { text: "Career", href: "/page-career" },
-      { text: "Help Center", href: "/page-contact" },
+      { text: "Career", href: "/careers" },
+      { text: "Help Center", href: "/contact" },
     ],
   },
   {
