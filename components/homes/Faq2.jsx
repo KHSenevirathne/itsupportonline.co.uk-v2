@@ -2,7 +2,7 @@ import Accordion from "@/components/common/Accordion";
 import { accordionItems } from "@/data/faq";
 import React from "react";
 
-export default function Faq() {
+export default function Faq2() {
   return (
     <div id="faq" className="section panel overflow-hidden">
       <div className="section-outer panel pb-6 xl:pb-9">

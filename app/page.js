@@ -1,16 +1,16 @@
 import Brands from "@/components/common/Brands";
 import Footer from "@/components/Footer";
-import Header4 from "@/components/headers/Header4";
-import Blog from "@/components/homes/home-5/Blog";
-import Cta from "@/components/homes/home-5/Cta";
-import Faq from "@/components/homes/home-5/Faq";
-import Features from "@/components/homes/home-5/Features";
-import Hero from "@/components/homes/home-5/Hero";
-import Howworks from "@/components/homes/home-5/Howworks";
-import Pricing from "@/components/homes/home-5/Pricing";
-import Support from "@/components/homes/home-5/Support";
-import Team from "@/components/homes/home-5/Team";
-import Testimonials from "@/components/homes/home-5/Testimonials";
+import Header from "@/components/header/Header";
+import Blog from "@/components/homes/Blog";
+import Cta from "@/components/homes/Cta";
+import Faq from "@/components/homes/Faq";
+import Features from "@/components/homes/Features";
+import Hero from "@/components/homes/Hero";
+import Howworks from "@/components/homes/Howworks";
+import Pricing from "@/components/homes/Pricing";
+import Support from "@/components/homes/Support";
+import Team from "@/components/homes/Team";
+import Testimonials from "@/components/homes/Testimonials";
 import React from "react";
 export const metadata = {
   title:
@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <>
       <div className=" page-wrapper uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg dom-ready bp-xl bp-xxl">
-        <Header4 />
+        <Header />
         <div id="wrapper" className="wrap">
           <Hero />
           <div

@@ -20,7 +20,7 @@ const swiperOptions2 = {
   modules: [Thumbs, Autoplay, Pagination],
   loopedslides: 4,
 };
-export default function Testimonials() {
+export default function Testimonials2() {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
     <div

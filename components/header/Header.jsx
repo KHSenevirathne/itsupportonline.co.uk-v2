@@ -1,12 +1,12 @@
 "use client";
 import { useEffect, useState } from "react";
-import Nav3 from "./component/Nav3";
+import Nav from "./component/Nav";
 import Link from "next/link";
 import Image from "next/image";
 import { openMobileMenu } from "@/utlis/toggleMobileMenu";
 import LanguageSelect2 from "../common/LanguageSelect2";
 
-export default function Header4() {
+export default function Header() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [scrollingUp, setScrollingUp] = useState(false);
 
@@ -113,7 +113,7 @@ export default function Header4() {
                   </Link>
                 </div>
                 <ul className="uc-navbar-nav gap-3 xl:gap-4 d-none lg:d-flex fw-medium ltr:ms-2 ltr:xl:ms-4 rtl:me-2 rtl:xl:me-4">
-                  <Nav3 />
+                  <Nav />
                 </ul>
               </div>
               <div className="uc-navbar-right">

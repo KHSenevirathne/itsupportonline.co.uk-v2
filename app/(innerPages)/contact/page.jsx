@@ -1,11 +1,11 @@
-import Header2 from "@/components/headers/Header4";
+import Header from "@/components/header/Header";
 
 import Footer from "@/components/Footer";
 import Contact1 from "@/components/innerpages/Contact1";
 import ContactLinks from "@/components/innerpages/ContactLinks";
-import Faq from "@/components/homes/home-2/Faq";
+import Faq2 from "@/components/homes/Faq2";
 import Brands from "@/components/common/Brands2";
-import Blogs from "@/components/homes/home-2/Blogs";
+import Blogs from "@/components/homes/Blogs2";
 export const metadata = {
   title:
     "Contact us - IT Support",
@@ -16,12 +16,12 @@ export default function ContactPage() {
   return (
     <>
       <div className="page-wrapper uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl dom-ready">
-        <Header2 />
+        <Header />
         <div id="wrapper" className="wrap">
           <Contact1 />
 
           <ContactLinks />
-          <Faq />
+          <Faq2 />
           <div
             id="clients_brands"
             className="clients-brands section panel overflow-hidden"

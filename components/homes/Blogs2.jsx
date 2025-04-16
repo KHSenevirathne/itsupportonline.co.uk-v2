@@ -1,12 +1,15 @@
-import { blogPosts } from "@/data/blogs";
+import { articles } from "@/data/blogs";
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 
-export default function Blog() {
+export default function Blogs2() {
   return (
-    <div id="blog_posts" className="section panel overflow-hidden">
-      <div className="section-outer panel pb-6 xl:pb-9">
+    <div
+      id="blog_posts"
+      className="section panel overflow-hidden gap-3 bg-secondary dark:bg-gray-800"
+    >
+      <div className="section-outer panel py-6 xl:py-9">
         <div className="container max-w-xl">
           <div className="section-inner panel">
             <div
@@ -18,61 +21,61 @@ export default function Blog() {
               </h2>
               <div className="panel">
                 <div className="row child-cols-12 sm:child-cols-6 lg:child-cols-4 justify-center g-2 xl:g-4">
-                  {blogPosts.map((post, index) => (
+                  {articles.map((article, index) => (
                     <div key={index}>
-                      <article className="post type-post panel vstack gap-3 rounded-3 p-2 pb-3 bg-secondary dark:bg-gray-800">
+                      <article className="post type-post panel vstack gap-3 rounded-3 p-2 pb-3 bg-white dark:bg-gray-800">
                         <Link
                           className="position-absolute top-0 ltr:start-0 rtl:end-0 m-3 fs-7 fw-bold text-none z-1 bg-primary text-white py-narrow px-1"
                           href={`/blog`}
                           style={{ borderRadius: 8 }}
                         >
-                          {post.category}
+                          {article.category}
                         </Link>
                         <figure className="featured-image m-0 rounded ratio ratio-3x2 rounded-2 uc-transition-toggle overflow-hidden">
                           <Image
                             className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                            src={post.imageSrc}
+                            src={article.imgSrc}
                             width={1280}
                             height={854}
-                            alt={post.imageAlt}
+                            alt={article.imgAlt}
                           />
                           <Link
-                            href={`/blog-details/${post.id}`}
+                            href={`/blog-details/${article.id}`}
                             className="position-cover"
-                            data-caption={post.imageAlt}
+                            data-caption={article.imgAlt}
                           ></Link>
                         </figure>
                         <header className="panel vstack items-center gap-1 lg:gap-2 px-2">
                           <h3 className="h5 xl:h4 m-0 text-center m-0">
                             <Link
                               className="text-none"
-                              href={`/blog-details/${post.id}`}
+                              href={`/blog-details/${article.id}`}
                             >
-                              {post.title}
+                              {article.title}
                             </Link>
                           </h3>
                           <ul className="post-meta nav-x ft-tertiary justify-center gap-1 fs-7 text-gray-400 dark:text-gray-300 d-none lg:d-flex">
                             <li>
                               <div className="hstack gap-narrow ft-tertiary">
                                 <Image
-                                  src={post.authorImgSrc}
+                                  src={article.authorImg}
                                   width={150}
                                   height={150}
-                                  alt={post.authorName}
+                                  alt={article.author}
                                   className="w-24px h-24px rounded-circle me-narrow"
                                 />
                                 <Link
                                   href={`/blog-author/Amir Khan`}
                                   className="text-none fw-bold text-dark dark:text-white"
                                 >
-                                  {post.authorName}
+                                  {article.author}
                                 </Link>
                               </div>
                             </li>
                             <li className="opacity-50">•</li>
                             <li>
                               <div className="post-date hstack gap-narrow">
-                                <span>{post.date}</span>
+                                <span>{article.date}</span>
                               </div>
                             </li>
                           </ul>
@@ -82,6 +85,13 @@ export default function Blog() {
                   ))}
                 </div>
               </div>
+              <Link
+                href={`/blog`}
+                className="uc-link fw-bold d-inline-flex items-center gap-narrow"
+              >
+                <span>View more articles</span>
+                <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />
+              </Link>
             </div>
           </div>
         </div>

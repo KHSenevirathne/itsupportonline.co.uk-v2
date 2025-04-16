@@ -1,10 +1,10 @@
-import Header4 from "@/components/headers/Header4";
+import Header from "@/components/header/Header";
 
 import Footer from "@/components/Footer";
 import Hero from "@/components/innerpages/industries/Hero";
 import KeyFeatures from "@/components/innerpages/features/KeyFeatures";
-import Faq from "@/components/homes/home-2/Faq";
-import Testimonials from "@/components/homes/home-3/Testimonials";
+import Faq2 from "@/components/homes/Faq2";
+import Testimonials2 from "@/components/homes/Testimonials2";
 import Cta from "@/components/innerpages/features/Cta";
 import Brands2 from "@/components/common/Brands2";
 export const metadata = {
@@ -13,18 +13,18 @@ export const metadata = {
   description:
     "IT Support services UK company in London for expert technology advice to help business growth! Trusted IT specialists by over 200+ companies For over 10 years.",
 };
-export default function IndustriesPage() {
+export default function WhoWeServe() {
   return (
     <>
       <div className="page-wrapper uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl dom-ready">
-        <Header4 />
+        <Header />
         <div id="wrapper" className="wrap">
           <Hero />
           <KeyFeatures />
           <Cta />
           <div className="pt-6 xl:pt-9"></div>
-          <Faq />
-          <Testimonials />
+          <Faq2 />
+          <Testimonials2 />
           <div
             id="clients_brands"
             className="clients-brands section panel overflow-hidden"

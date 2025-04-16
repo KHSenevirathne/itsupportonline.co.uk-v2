@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Team() {
+export default function Team2() {
   return (
     <div id="about-team" className="about-team section panel overflow-hidden">
       <div className="section-outer panel py-6 xl:py-9">

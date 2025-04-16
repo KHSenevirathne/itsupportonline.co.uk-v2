@@ -4,7 +4,7 @@ import Image from "next/image";
 import { openNewsletterModal } from "@/utlis/toggleNewsletterModal";
 import { features, homeLinks, links } from "@/data/menu";
 import { featuresMenu, services } from "@/data/services";
-export default function Nav3() {
+export default function Nav() {
   return (
     <>
       <li className="has-dd-menu ">
