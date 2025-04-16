@@ -1,5 +1,5 @@
 import Header2 from "@/components/headers/Header4";
-import Footer2 from "@/components/footers/Footer4";
+import Footer from "@/components/Footer";
 import Hero from "@/components/itservicespages/helpdesk/Hero";
 import Faq from "@/components/homes/home-2/Faq";
 import Cta from "@/components/innerpages/features/Cta";
@@ -46,7 +46,7 @@ export default function HelpDesk() {
                         </div>
                     </div>
                 </div>
-                <Footer2 />
+                <Footer />
             </div>
         </>
     );

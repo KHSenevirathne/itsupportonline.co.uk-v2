@@ -1,12 +1,12 @@
 import Header4 from "@/components/headers/Header4";
 
-import Footer4 from "@/components/footers/Footer4";
+import Footer from "@/components/Footer";
 import Notfound from "@/components/otherPages/404";
 export const metadata = {
   title:
-    "Not Found || IT Support - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Not Found - IT Support",
   description:
-    "IT Support - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "IT Support services UK company in London for expert technology advice to help business growth! Trusted IT specialists by over 200+ companies For over 10 years.",
 };
 export default function NotFoundPage() {
   return (
@@ -16,7 +16,7 @@ export default function NotFoundPage() {
         <div id="wrapper" className="wrap">
           <Notfound />
         </div>
-        <Footer4 />
+        <Footer />
       </div>
     </>
   );

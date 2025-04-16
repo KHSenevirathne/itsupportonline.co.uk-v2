@@ -1,6 +1,6 @@
 import Header2 from "@/components/headers/Header4";
 
-import Footer2 from "@/components/footers/Footer4";
+import Footer from "@/components/Footer";
 import Consultation from "@/components/innerpages/Consultation";
 import ContactLinks from "@/components/innerpages/ContactLinks";
 import Faq from "@/components/homes/home-2/Faq";
@@ -45,7 +45,7 @@ export default function ConsultationPage() {
           </div>
           <Blogs />
         </div>
-        <Footer2 />
+        <Footer />
       </div>
     </>
   );

@@ -1,4 +1,4 @@
-import Footer2 from "@/components/footers/Footer4";
+import Footer from "@/components/Footer";
 import Header4 from "@/components/headers/Header4";
 import Breadcumb from "@/components/innerpages/Breadcumb";
 import Cta2 from "@/components/innerpages/Cta2";
@@ -16,13 +16,12 @@ export default function TeamPage() {
       <div className="page-wrapper uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md dom-ready bp-xxl-max bp-lg bp-xl">
         <Header4 />
         <div id="wrapper" className="wrap">
-          <Breadcumb />
           <Team />
           <Faq />
           <Cta2 />
         </div>
 
-        <Footer2 />
+        <Footer />
       </div>
     </>
   );

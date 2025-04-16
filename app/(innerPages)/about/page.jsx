@@ -1,6 +1,6 @@
 import Header4 from "@/components/headers/Header4";
 
-import Footer4 from "@/components/footers/Footer4";
+import Footer from "@/components/Footer";
 import About from "@/components/innerpages/About";
 import Brands from "@/components/common/Brands2";
 import About2 from "@/components/innerpages/About2";
@@ -48,7 +48,7 @@ export default function AboutPage() {
           <Team />
           <Cta />
         </div>
-        <Footer4 />
+        <Footer />
       </div>
     </>
   );

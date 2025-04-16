@@ -1,10 +1,10 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import LanguageSelect from "../common/LanguageSelect";
+import LanguageSelect from "./common/LanguageSelect";
 import { footerLinks3, socialLinks } from "@/data/footer";
 
-export default function Footer4() {
+export default function Footer() {
   return (
     <footer id="uc-footer" className="uc-footer panel overflow-hidden uc-dark">
       <div className="footer-outer pb-4 lg:pb-6 dark:bg-gray-900 dark:text-white">

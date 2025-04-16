@@ -1,6 +1,6 @@
 import Header2 from "@/components/headers/Header4";
 
-import Footer2 from "@/components/footers/Footer4";
+import Footer from "@/components/Footer";
 import Newsletter from "@/components/blog/Newsletter";
 import Blogs1 from "@/components/blog/Blogs1";
 export const metadata = {
@@ -18,7 +18,7 @@ export default function BlogPage1() {
           <Blogs1 />
           <Newsletter />
         </div>
-        <Footer2 />
+        <Footer />
       </div>
     </>
   );

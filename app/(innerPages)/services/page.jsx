@@ -1,6 +1,6 @@
 import Header4 from "@/components/headers/Header4";
 
-import Footer4 from "@/components/footers/Footer4";
+import Footer from "@/components/Footer";
 import Hero from "@/components/innerpages/services/Hero";
 import KeyFeatures from "@/components/innerpages/features/KeyFeatures";
 import Faq from "@/components/homes/home-2/Faq";
@@ -46,7 +46,7 @@ export default function ServicesPage() {
             </div>
           </div>     
         </div>
-        <Footer4 />
+        <Footer />
       </div>
     </>
   );

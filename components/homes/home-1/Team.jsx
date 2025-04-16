@@ -42,7 +42,7 @@ export default function Team() {
                 ))}
               </div>
               <Link
-                href={`/about`}
+                href={`/team`}
                 className="uc-link fw-bold d-inline-flex items-center gap-narrow"
               >
                 <span>More about us</span>
