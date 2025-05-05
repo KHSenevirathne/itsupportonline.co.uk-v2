@@ -51,10 +51,10 @@ export default function Header() {
                       <a href="#">Customer stories</a>
                     </li>
                     <li>
-                      <Link href={`/page-terms`}>Terms and conditions</Link>
+                      <Link href={`#`}>Terms and conditions</Link>
                     </li>
                     <li>
-                      <Link href={`/contact`}>
+                      <Link href={`/free-consultation`}>
                         <span>Hire an Expert</span>
                         <i className="fs-8 unicon-arrow-up-right fw-bold ms-narrow rtl:-rotate-90" />
                       </Link>

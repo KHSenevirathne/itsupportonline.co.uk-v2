@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Accordion2 from "@/components/common/Accordion2";
+import { accordionItems2 } from "@/data/faq";
 
 export default function Howworks() {
   return (
@@ -45,7 +46,7 @@ export default function Howworks() {
                             data-uc-accordion="collapsible: false"
                             style={{ "--divider-gap": "40px" }}
                           >
-                            <Accordion2 />
+                            <Accordion2 items = {accordionItems2} />
                           </ul>
                         </div>
                       </div>

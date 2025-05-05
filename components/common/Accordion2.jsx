@@ -1,9 +1,8 @@
 "use client";
-import { accordionItems2 } from "@/data/faq";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
-export default function Accordion2() {
+export default function Accordion2({ items }) {
   const parentRefs = useRef([]);
 
   const answerRefs = useRef([]);
@@ -30,7 +29,7 @@ export default function Accordion2() {
 
   return (
     <>
-      {accordionItems2.map((item, i) => (
+      {items.map((item, i) => (
         <li
           ref={(el) => (parentRefs.current[i] = el)}
           className={`${currentIndex == i ? "uc-open" : ""} `}

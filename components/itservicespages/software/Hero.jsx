@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Accordion2 from "@/components/common/Accordion2";
 import Link from "next/link";
+import { accordionItems2 } from "@/data/faq";
 
 export default function Hero() {
     return (
@@ -89,7 +90,7 @@ export default function Hero() {
                                             data-uc-accordion="collapsible: false"
                                             style={{ "--divider-gap": "40px" }}
                                         >
-                                            <Accordion2 />
+                                            <Accordion2 items = {accordionItems2} />
                                         </ul>
                                     </div>
                                     <div className="vstack sm:hstack justify-center lg:justify-start gap-1 lg:gap-2 mt-1 lg:mt-2">

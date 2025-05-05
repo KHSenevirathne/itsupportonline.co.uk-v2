@@ -18,7 +18,7 @@ export default function Hero() {
                   data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
                 >
                   <h1 className="h2 sm:display-6 xl:display-4 fw-light mb-1 xl:mb-2">
-                  Reliable &amp; Managed, <br />IT Support
+                  Reliable &amp; AI, <br />IT Support
                   </h1>
                   <p className="fs-6 xl:fs-4">
                     Unlock your productivity potential with our
@@ -50,7 +50,7 @@ export default function Hero() {
                     <p className="fs-7 text-dark dark:text-white text-opacity-70">
                       We care about your data in our
                       <Link
-                        href={`/page-privacy`}
+                        href={`#`}
                         className="uc-link text-underline dark:text-secondary"
                       >
                         privacy policy

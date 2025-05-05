@@ -7,7 +7,6 @@ import Faq from "@/components/homes/Faq";
 import Features from "@/components/homes/Features";
 import Hero from "@/components/homes/Hero";
 import Howworks from "@/components/homes/Howworks";
-import Pricing from "@/components/homes/Pricing";
 import Support from "@/components/homes/Support";
 import Team from "@/components/homes/Team";
 import Testimonials from "@/components/homes/Testimonials";
@@ -53,7 +52,6 @@ export default function Home() {
           <hr className="w-100 m-0 d-block lg:d-none" />
           <Cta />
           <Howworks />
-          <Pricing />
           <Testimonials />
           <Faq />
           <Support />

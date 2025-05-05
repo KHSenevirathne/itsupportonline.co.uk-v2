@@ -151,7 +151,7 @@ export const ourservices = [
   },
   {
     id: 13,
-    imgSrc: "/assets/images/template/services-01.webp",
+    imgSrc: "/assets/images/template/services-13.webp",
     imgAlt: "Review quickly and confidently",
     title: "Remote Working Solutions",
     description:

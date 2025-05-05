@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Accordion2 from "@/components/common/Accordion2";
 import Link from "next/link";
+import { accordionItems2 } from "@/data/faq";
 
 export default function Hero() {
     return (
@@ -66,7 +67,7 @@ export default function Hero() {
                                     <Image
                                         className="media-cover image"
                                         alt="image title"
-                                        src="/assets/images/template/services-01.webp"
+                                        src="/assets/images/template/services-13.webp"
                                         width="1200"
                                         height="1200"
                                     />
@@ -89,7 +90,7 @@ export default function Hero() {
                                             data-uc-accordion="collapsible: false"
                                             style={{ "--divider-gap": "40px" }}
                                         >
-                                            <Accordion2 />
+                                            <Accordion2 items = {accordionItems2} />
                                         </ul>
                                     </div>
                                     <div className="vstack sm:hstack justify-center lg:justify-start gap-1 lg:gap-2 mt-1 lg:mt-2">
@@ -116,7 +117,7 @@ export default function Hero() {
                                     <div className="order-0 lg:order-1">
                                         <div className="panel w-100 rounded lg:rounded-2 overflow-hidden">
                                             <Image
-                                                src="/assets/images/template/services-01-inner.webp"
+                                                src="/assets/images/template/services-13-inner.webp"
                                                 width={780}
                                                 height={728}
                                                 alt="Share tools quickly and confidently in minutes"
