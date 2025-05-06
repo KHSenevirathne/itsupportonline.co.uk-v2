@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import Accordion2 from "@/components/common/Accordion2";
 import Link from "next/link";
-import { accordionItems2 } from "@/data/faq";
 import { manageitserviceitems } from "@/data/faq";
 
 export default function Hero() {
