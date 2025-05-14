@@ -6,6 +6,7 @@ import "swiper/css";
 import "swiper/css/thumbs";
 import "swiper/css/effect-fade";
 import "../public/assets/custom.scss";
+import { schema } from './schema';
 
 import "photoswipe/dist/photoswipe.css";
 import "rc-slider/assets/index.css";
@@ -105,6 +106,12 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en" dir="ltr">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      </head>
       <body suppressHydrationWarning>
         {" "}
         <Context>
